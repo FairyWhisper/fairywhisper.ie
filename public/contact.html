@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FairyWhisper</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="main.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap" rel="stylesheet">
@@ -26,39 +26,119 @@
 </script>
 </head>
 <body>
-  <h1>Contact FairyWhisper</h1>
+ <header class="header">FairyWhisper
+  <nav class="top-nav" aria-label="Utility navigation">
+    <a href="index.html" aria-label="Home">
+      <img src="top_nav_home.svg" alt="Home icon">
+    </a>
+    <a href="contact.html" aria-label="Contact">
+      <img src="top_nav_contact.svg" alt="Contact icon">
+    </a>
+    <a href="javascript:history.back()" aria-label="Back">
+      <img src="top_nav_back.svg" alt="Back icon">
+    </a>
+  </nav>
+ </header>
+ <main>
+<h1>Talk to FairyWhisper</h1> 
+<h2>Why not send a message to FairyWhisper?</h2>
+<p>There's probably a lot of reasons, but if you can't think of one, here's a form! <span class="inside-voice">Everyone loves forms</span></p>
+<form action="mailto:fairywhisper@example.com" method="post" enctype="text/plain">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="5" required></textarea>
+  <button type="submit">Send</button>
+</form>
+<h2><span class="inside-voice">If you prefer pressing buttons and having a little look around, we got you...</span>
+  FairyWhisper's Online World Tour.</h2>
+  <h3>Social</h3>
   <section class="social-links">
-    <a href="TikTok URL here">TikTok</a> <i class="fa-brands fa-tiktok"></i>
-    <a href="Instagram URL here">Instagram</a> <i class="fa-brands fa-instagram"></i>
-    <a href="YouTube URL here">YouTube</a> <i class="fa-brands fa-youtube"></i>
-    <a href="Facebook URL here">Facebook</a> <i class="fa-brands fa-facebook"></i>
-    <a href="LinkedIn URL here">LinkedIn</a> <i class="fa-brands fa-linkedin"></i>
-    <a href="Reddit URL here">Reddit</a> <i class="fa-brands fa-reddit"></i>
-    <a href="GitHub URL here">GitHub</a> <i class="fa-brands fa-github"></i>
-    <a href="Twitch URL here">Twitch</a> <i class="fa-brands fa-twitch"></i>
-    <a href="Discord URL here">Discord</a> <i class="fa-brands fa-discord"></i>
-    <a href="WhatsApp URL here">WhatsApp</a> <i class="fa-brands fa-whatsapp"></i>
-    <a href="X URL here">X</a> <i class="fa-brands fa-x"></i>
-    <a href="Patreon URL here">Patreon</a> <i class="fa-brands fa-patreon"></i>
-    <a href="spotify URL here">Spotify</a> <i class="fa-brands fa-spotify"></i>
-    <a href="Apple Podcasts URL here">Apple Podcasts</a> <i class="fa-brands fa-apple"></i>
-    <a href="Google Podcasts URL here">Google Podcasts</a> <i class="fa-brands fa-google"></i>
-    <a href="Amazon Music URL here">Amazon Music</a> <i class="fa-brands fa-amazon"></i>
+  <a href="https://TikTok.com/BeyondtheButton">TikTok <i class="fa-brands fa-tiktok"></i></a>
+  <a href="https://Instagram.com/BeyondtheButton">Instagram <i class="fa-brands fa-instagram"></i></a>
+  <a href="https://Facebook.com/BeyondtheButton">Facebook <i class="fa-brands fa-facebook"></i></a>
+  <a href="https://LinkedIn.com/AmandaCunningham">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://Reddit.com/user/FairyWhisperIE">Reddit <i class="fa-brands fa-reddit"></i></a>
   </section>
+  <h3>Creator</h3>
+  <section class="social-links">
+  <a href="https://YouTube.com/BeyondtheButton">YouTube <i class="fa-brands fa-youtube"></i></a>
+  <a href="https://GitHub.com/FairyWhisper">GitHub <i class="fa-brands fa-github"></i></a>
+  <a href="https://Twitch.com/FairyWhisper">Twitch <i class="fa-brands fa-twitch"></i></a>
+  </section>
+  <h3>Chats</h3>
+  <section class="social-links">
+  <a href="https://Discord.com/invite/FairyWhisper">Discord <i class="fa-brands fa-discord"></i></a>
+  <a href="https://WhatsApp.com/send?phone=+353834440579">WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+  </section>
+  <h3>Support</h3>
+  <section class="social-links">
+  <a href="https://Patreon.com/WhisperoftheWindsPodcast">Patreon <i class="fa-brands fa-patreon"></i></a>
+  </section>
+  <h3>Podcast</h3>
+  <section class="social-links">
+  <a href="https://open.spotify.com/show/whisperofthewinds">Spotify <i class="fa-brands fa-spotify"></i></a>
+  <a href="https://podcasts.apple.com/us/podcast/whisper-of-the-winds/id1234567890">Apple Podcasts <i class="fa-brands fa-apple"></i></a>
+  <a href="https://podcasts.google.com/feed/aHR0cHM6Ly93aGlzcGVyb2Z0aGV3aW5kcy5saWJzeW4uY29tL3Jzcw">Google Podcasts <i class="fa-brands fa-google"></i></a>
+  <a href="https://music.amazon.com/podcasts/whisper-of-the-winds">Amazon Music <i class="fa-brands fa-amazon"></i></a>
+</section>
+<div class="section-divider" aria-hidden="true"></div>
+<h2>Prefer a more traditional approach? Say no more...</h2>
   <section class="contact-links">
   <ul>
    <li><a href="mailto:acatbeyondthebutton@gmail.com">Email me</a></li>
-   <li><a href="tel:+353834440579">Call for a chat</a></li>
+   <li><a href="tel:+353834440579">Call for a chat.</a><span class="inside-voice"> Please don't <em>actually</em> call me, I'm a millenial.</span></li>
   </ul>
-  </section>
-   <p class="inside-voice">Please don't actually call me, I'm a millenial.</p>
-  <nav>
-    <a href="/index.html">Home</a><a href="/about.html">About</a> <a href="/funpressybuttonthing.html">Fun Pressy Button Thing</a>
+   </section>
+   <div class="section-divider" aria-hidden="true"></div>
+  <nav class="main-nav">
+    <a href="/about.html">About</a><a href="/index.html">Home</a><a href="/funpressybuttonthing.html">Fun Pressy Button Thing</a><a href="/bookkeeper.html">BookKeeper</a><a href="/studybuddy.html">Study Buddy</a><a href="/designsystem.html">Design System</a><a href="/blog.html">Blog</a> <a href="/podcast.html">Podcast</a><a href="/beyondthebutton.html">YouTube Channel</a> 
   </nav>
   <footer>
-    <p>© 2026 FairyWhisper</p>
-    <p>Buttoned up by Amanda</p>
+  <p>© 2026 FairyWhisper . Buttoned up by Amanda</p>
+    <div class="social-media-links">
+      <ul>
+        <li>
+          <!-- facebook -->
+          <a href="www.facebook.com/beyondthebutton">
+            <svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M28.3 0.1H1.7c-0.9 0-1.6 0.7-1.6 1.6v26.5c0 0.9 0.7 1.6 1.6 1.6H16V18.4h-3.9v-4.5H16v-3.3c0-3.9 2.4-5.9 5.8-5.9 1.6 0 3.1 0.1 3.5 0.2v4l-2.4 0c-1.9 0-2.2 0.9-2.2 2.2v2.9h4.5l-0.6 4.5h-3.9v11.5h7.6c0.9 0 1.6-0.7 1.6-1.6V1.7C29.9 0.8 29.2 0.1 28.3 0.1z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <!-- youtube -->
+          <a href="www.youtube.com/beyondthebutton">
+            <svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M29.7 9c0 0-0.3-2.1-1.2-3 -1.1-1.2-2.4-1.2-3-1.3C21.3 4.5 15 4.5 15 4.5h0c0 0-6.3 0-10.5 0.3C3.9 4.8 2.6 4.8 1.5 6 0.6 6.9 0.3 9 0.3 9S0 11.4 0 13.9v2.3C0 18.6 0.3 21 0.3 21s0.3 2.1 1.2 3c1.1 1.2 2.6 1.2 3.3 1.3C7.2 25.5 15 25.6 15 25.6s6.3 0 10.5-0.3c0.6-0.1 1.9-0.1 3-1.3 0.9-0.9 1.2-3 1.2-3s0.3-2.4 0.3-4.9v-2.3C30 11.4 29.7 9 29.7 9zM11.9 18.9l0-8.4 8.1 4.2L11.9 18.9z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M29.7 9c0 0-0.3-2.1-1.2-3 -1.1-1.2-2.4-1.2-3-1.3C21.3 4.5 15 4.5 15 4.5h0c0 0-6.3 0-10.5 0.3C3.9 4.8 2.6 4.8 1.5 6 0.6 6.9 0.3 9 0.3 9S0 11.4 0 13.9v2.3C0 18.6 0.3 21 0.3 21s0.3 2.1 1.2 3c1.1 1.2 2.6 1.2 3.3 1.3C7.2 25.5 15 25.6 15 25.6s6.3 0 10.5-0.3c0.6-0.1 1.9-0.1 3-1.3 0.9-0.9 1.2-3 1.2-3s0.3-2.4 0.3-4.9v-2.3C30 11.4 29.7 9 29.7 9zM11.9 18.9l0-8.4 8.1 4.2L11.9 18.9z"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <!-- instagram -->
+          <a href="https://www.instagram.com/beyondthebutton">
+            <svg class="glow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
+              <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
+              <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+              <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
+              <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
+              <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </footer>
-</body>
+  </body>
 </html>
-  
