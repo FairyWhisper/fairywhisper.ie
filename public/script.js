@@ -26,13 +26,6 @@ document.getElementById('roscommonBtn').addEventListener('click', () => {
       document.getElementById('factBox').innerText = data.fact;
     });
 });
-document.getElementById('funButton').addEventListener('click', () => {
-  fetch('/fact/fun')
-    .then(res => res.json())
-    .then(data => {
-    document.body.innerHTML += `<dialog open>'You have been awarded 1x Fun'</dialog>`
-    });
-});
 document.getElementById('onlyGransBtn').addEventListener('click', () => {
   fetch('/fact/only_grans')
     .then(res => res.json())
