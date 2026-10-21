@@ -1,6 +1,5 @@
 .vercel
-./api
-./node_modules
-.env.development.local
-.env.production.local
+api/
+node_modules/
+.env.*
 .env
