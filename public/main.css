@@ -155,6 +155,7 @@ main {
   font-size: var(--font-size-medium);
   padding: 2rem;
 }
+
 .aside.offtopic {
     display: flex;
     flex: 1;
