@@ -26,6 +26,7 @@
   --text-color-secondary: #e0ddd1;
   --text-color-heading: #f0e4d3;
   --text-color-accent: #051720;
+  --text-color-warning: #e4b169
   --link-hover-color: #718d9b;
   --link-text-color: #413d4d;
   --link-active-color: #e4e4db;
@@ -170,6 +171,13 @@ main {
 .inside-voice {
   font-style: italic;
   color: var(--text-color-secondary);
+}
+
+
+.highlight {
+  font-weight: bold;
+  color: var(--text-color-warning);
+  font-size: var(--font-size-large);
 }
 
 .fairy-dust {
